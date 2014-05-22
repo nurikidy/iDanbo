@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "name": "iDanbo",
+  "description": "Discover Danbo at Instagram",
+  "launch_path": "/app-danbo.html",
+  "icons": {
+    "16": "/css/icons/idanbo-16.png",
+    "48": "/css/icons/idanbo-48.png",
+    "60": "/css/icons/idanbo-60.png",
+    "90": "/css/icons/idanbo-90.png",
+    "120": "/css/icons/idanbo-120.png",
+    "128": "/css/icons/idanbo-128.png"
+  },
+  "developer": {
+    "name": "Nuri Abidin",
+    "url": "http://www.nurikidy.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "locales": {
+    "id": {
+      "description": "Temukan foto-foto Danbo yang lucu dari Instagram di sini",
+      "developer": {
+        "url": "http://www.nurikidy.com"
+      }
+    },
+    "en": {
+      "description": "Discover Danbo photos in here",
+      "developer": {
+        "url": "http://www.nurikidy.com"
+      }
+    }
+  },
+  "default_locale": "en"
+}

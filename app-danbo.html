@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title>iDanbo</title> 
+    <meta charset="UTF-8">
+
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="author" content="Nuri Abidin" />
+    <meta name="distribution" content="Global" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="robots" content="FOLLOW,INDEX, NOODP" />
+
+    <script type='text/javascript' src='js/jquery-1.11.0.min.js'></script>    
+    <script type='text/javascript' src="js/jquery.mobile-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/instafeed.min.js"></script>
+
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.2.min.css" />
+    <link rel="stylesheet" href="css/screen.css" />
+</head>
+
+<body> 
+
+
+<div data-role="page" data-cache="false" id="danbo-main" data-theme="b">
+    <div data-role="header" data-position="fixed" data-close-btn="none">
+        <h3>
+            iDanbo
+        </h3>
+    </div>
+
+
+    <div data-role="content">
+        <div align="center">
+            <div id="instafeed"></div>
+        </div>
+    </div>
+        
+
+    <div data-role="footer" data-position="fixed">
+        <div align="center">
+            <a class="prev" href="" data-inline="true" data-icon="arrow-l" data-iconpos="notext" data-role="button">prev</a>
+            <a class="info" href="#danbo-info" data-inline="true" data-icon="info" data-iconpos="notext" data-role="button">home</a>
+            <a class="reload" href="app-danbo.html" data-inline="true" data-icon="refresh" data-iconpos="notext" data-role="button">about</a>
+            <a class="next" href="" data-inline="true" data-icon="arrow-r" data-iconpos="notext" data-role="button">prev</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/danbo-app.js"></script>
+</div>
+
+<div data-role="page" data-cache="false" id="danbo-info">
+    <div data-role="header" data-position="fixed" data-close-btn="none" data-theme="b">
+        <h3>
+            iDanbo
+        </h3>
+    </div>
+
+
+    <div data-role="content">
+            v1.0<br />Nuri Abidin (@nurikidy)
+            <p>This app will give you 10 random photos of Danbo from Instagram.
+            Just swipe left or right to view the collection or tap the Refresh icon to get the new one.
+            </p>
+            <p>So what is <b>Danbo</b> anyway?<br />
+                Danbo (Japanese: <i>ダンボー</i>) is a Japanese cardboard robot that originally appeared in the manga <i>Yotsuba&!</i> by by Kiyohiko Azuma in 2007. 
+            </p>
+            <p>
+                In Chapter 28, the main character Yotsuba Koiwai mistakes her friend Miura Hayasaka dressed up as a science project for a real robot. When Yotsuba asks the robot its name, Miura does not want to crush her friend’s dreams, naming the costume <b>Danbo</b>, a play on the Japanese word for corrugated cardboard, danboru (<i>段ボール</i>).
+            </p>
+            <div align="center"><img src="http://distilleryimage1.s3.amazonaws.com/83db25c8931711e3acec121398b1eaf5_6.jpg" /></div>
+    </div>
+        
+
+    <div data-role="footer" data-position="fixed" data-theme="b">
+        <div align="center">
+            <a href="#danbo-main" data-inline="true" data-icon="home" data-iconpos="notext" data-role="button">home</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
